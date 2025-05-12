@@ -555,3 +555,10 @@ footer > a{
 #skill5{
     margin-top: 150px;
 }
+
+// scroll
+
+html {
+  scroll-behavior: smooth;
+}
+
