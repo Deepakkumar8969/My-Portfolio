@@ -23,7 +23,7 @@ const Main = () => {
   }, []);
 
   const Resume = () => {
-    window.open("https://drive.google.com/file/d/1JZpdr-5g0caiEFGQ--knyUyMK6Ns_Ny4/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1S1-ut6e0Kfx1Y8WVOWMJ7dtgGUZrCDI-/view?usp=sharing", "_blank");
   };
 
   return (
