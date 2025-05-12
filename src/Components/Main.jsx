@@ -30,7 +30,7 @@ const Main = () => {
     <div>
       <main>
         <div className="part1">
-          <h1>Hi! Deepak Kumar</h1>
+          <h1>Hi!I'm Deepak Kumar</h1>
 
           <div className="role-container">
             <span>I am a </span>
