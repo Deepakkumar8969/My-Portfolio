@@ -1,58 +1,61 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
 const Main = () => {
+  const roles = [
+    "Java Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer"
+  ];
 
-    const roles = [
-     "Java Full Stack Developer",
-     "Frontend Developer",
-     "Backend Developer"
-     ];
+  const [index, setIndex] = useState(0);
+  const [fade, setFade] = useState(true);
 
-    let index = 0;
-    const roleElement = document.getElementById("role");
-
-    function changeRole() {
-      roleElement.style.opacity = 0;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false);
       setTimeout(() => {
-      index = (index + 1) % roles.length;
-      roleElement.textContent = roles[index];
-      roleElement.style.opacity = 1;
-  }, 500);
-}
+        setIndex((prevIndex) => (prevIndex + 1) % roles.length);
+        setFade(true);
+      }, 500);
+    }, 3000);
 
-setInterval(changeRole, 3000); // Change every 3 seconds
+    return () => clearInterval(interval);
+  }, []);
 
-// Resume link
+  const Resume = () => {
+    window.open("https://drive.google.com/file/d/1JZpdr-5g0caiEFGQ--knyUyMK6Ns_Ny4/view?usp=sharing", "_blank");
+  };
 
-   function Resume() {
-            window.open("https://drive.google.com/file/d/1JZpdr-5g0caiEFGQ--knyUyMK6Ns_Ny4/view?usp=sharing");
-        }
-
-        
   return (
     <div>
       <main>
-        <div class="part1">
-            <h1> Hi! Deepak Kumar </h1>
+        <div className="part1">
+          <h1>Hi! Deepak Kumar</h1>
 
-            <div class="role-container">
-               <span>I am a </span>
-               <span id="role" class="role-text">Java Full Stack Developer</span>
-            </div>
+          <div className="role-container">
+            <span>I am a </span>
+            <span
+              className="role-text"
+            >
+              {roles[index]}
+            </span>
+          </div>
 
-            <p> I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer. </p>
+          <p>
+            I'm a software developer and here is my portfolio website. Here you'll
+            learn about my journey as a software developer.
+          </p>
 
-            <button> hire me </button>
-            <button onClick={Resume}> Resume </button>
-
+          <button>hire me</button>
+          <button onClick={Resume}>Resume</button>
         </div>
 
-        <div class="part2">
-              <img src="./image/deepak-kumar.JPG" alt="image not found"/>
+        <div className="part2">
+          <img src="./image/deepak-kumar.JPG" alt="Deepak Kumar" />
         </div>
-    </main>
+      </main>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
