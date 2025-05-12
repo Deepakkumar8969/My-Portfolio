@@ -26,6 +26,10 @@ const Main = () => {
     window.open("https://drive.google.com/file/d/1S1-ut6e0Kfx1Y8WVOWMJ7dtgGUZrCDI-/view?usp=sharing", "_blank");
   };
 
+  const Hire = () => {
+    window.open("mailto:dk12a3653@gmail.com", "_blank");
+  };
+
   return (
     <div>
       <main>
@@ -46,7 +50,7 @@ const Main = () => {
             learn about my journey as a software developer.
           </p>
 
-          <button>hire me</button>
+          <button onClick={Hire}>hire me</button>
           <button onClick={Resume}>Resume</button>
         </div>
 
