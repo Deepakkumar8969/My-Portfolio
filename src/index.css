@@ -556,9 +556,7 @@ footer > a{
     margin-top: 150px;
 }
 
-// scroll
-
-html {
+html{
   scroll-behavior: smooth;
 }
 
