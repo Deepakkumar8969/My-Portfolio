@@ -40,7 +40,7 @@ const Project1 = () => {
       <div className="project1-write">
         <p>WEATHER APP PROJECT</p>
         <ul>
-          <li>Build a fully functional dynamic web app.</li>
+          <li>Built a fully functional dynamic web app.</li>
           <li>Allows user to get accurate weather information of any location in world.</li>
           <li>Tech:- HTML, CSS, JAVASCRIPT, React JS, GitHub, Vercel etc</li>
         </ul>
