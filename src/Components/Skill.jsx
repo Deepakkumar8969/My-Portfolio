@@ -7,7 +7,7 @@ const Skill = () => {
     <div class="skill1">
         <h1> <span class="skill4">M</span>e and </h1>
             <h1> MyTech stack </h1>
-            <p> I’m a passionate Full Stack Java Developer with a strong foundation in building robust, scalable web applications. My expertise spans across the full development lifecycle—from designing responsive UIs with HTML, CSS, JavaScript, and React.js to building powerful backend systems using Core Java, JDBC, Servlets, Hibernate, and Spring Frameworks including Spring Boot and Spring Data JPA. I work comfortably with relational databases using SQL and ensure seamless communication through RESTful APIs. I follow best practices in code quality, version control (Git), and love turning complex requirements into clean, efficient code. With a continuous learning mindset, I strive to write maintainable and performant applications that deliver real-world value. </p>
+            <p> I’m a passionate Full Stack Java Developer with a strong foundation in building robust, scalable web applications. My expertise spans across the full development lifecycle—from designing responsive UIs with HTML, CSS, JavaScript, and React.js to developing powerful backend systems using Core Java, JDBC, Servlets, Hibernate, and Spring Frameworks including Spring Boot and Spring Data JPA. I work confidently with relational databases using SQL and build seamless communication layers through RESTful APIs. I follow best practices in code quality, version control (Git), and enjoy turning complex requirements into clean, efficient code. With a continuous learning mindset, I strive to write maintainable and high-performance applications that deliver real-world value. </p>
     </div>
 
     <div class="skill2">
