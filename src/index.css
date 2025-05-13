@@ -560,3 +560,174 @@ html{
   scroll-behavior: smooth;
 }
 
+/* Responsive Styles */
+
+/* For Tablet view (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+    /* Navbar */
+    ul {
+        gap: 40px;
+    }
+
+    main {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* Projects */
+    .project1, .project2, .project3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project1-pic, .project2-pic, .project3-pic {
+        margin-right: 0;
+        margin-left: 0;
+        width: 80%;
+        height: 300px;
+    }
+
+    .project1-write, .project2-write, .project3-write {
+        margin-top: 20px;
+        width: 80%;
+        height: auto;
+    }
+
+    /* Form */
+    .form2 > input, .form2 > textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+/* For Mobile view (max-width: 768px) */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .part1 {
+        padding-right: 0;
+    }
+
+    .part1 > h1 {
+        font-size: 28px;
+    }
+
+    .part1 > h3 {
+        font-size: 20px;
+    }
+
+    /* Form */
+    .form1 > h1 {
+        font-size: 50px;
+    }
+
+    .form1 > h3 {
+        font-size: 30px;
+    }
+
+    .form2 > input, .form2 > textarea {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer1 a {
+        margin-top: 10px;
+    }
+
+    /* Projects */
+    .project1, .project2, .project3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project1-pic, .project2-pic, .project3-pic {
+        width: 100%;
+        height: 250px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .project1-write, .project2-write, .project3-write {
+        width: 100%;
+        text-align: center;
+    }
+
+    .project1-write > p, .project2-write > p, .project3-write > p {
+        font-size: 24px;
+    }
+
+    .project1-write > ul, .project2-write > ul, .project3-write > ul {
+        padding-left: 20px;
+        font-size: 16px;
+        list-style-type: disc;
+    }
+
+    .project1-write > button, .project2-write > button, .project3-write > button {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* Skill Section */
+    .skill {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill1, .skill2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill1 h1 {
+        font-size: 30px;
+    }
+
+    .skill1 p {
+        font-size: 18px;
+    }
+
+    .skill2 img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
