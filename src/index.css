@@ -615,7 +615,7 @@ html{
     nav {
         flex-direction: column;
         height: auto;
-        padding:10px 0;
+/*         padding:10px 0; */
     }
 
     ul {
@@ -628,8 +628,8 @@ html{
         flex-direction: column;
         padding: 20px 10px;
         height: auto;
-        margin-top:0;
-        margin-bottom:20px;
+/*         margin-top:0;
+        margin-bottom:20px; */
     }
 
     .part1 {
@@ -678,10 +678,10 @@ html{
 
     /* Projects */
 
-    .projectall {
+/*     .projectall {
         margin-top: 0;
         padding-top: 20px; /* adjust if needed */
-    }
+    } */
     
     .project1, .project2, .project3 {
         flex-direction: column;
