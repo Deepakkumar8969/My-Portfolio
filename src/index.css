@@ -626,7 +626,7 @@ html{
     main {
         flex-direction: column;
         padding: 20px;
-        height: 50%;
+        height: auto;
     }
 
     .part1 {
