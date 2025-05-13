@@ -631,6 +631,8 @@ html{
 
     .part1 {
         padding-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .part1 > h1 {
@@ -639,6 +641,11 @@ html{
 
     .part1 > h3 {
         font-size: 20px;
+    }
+
+    .part2{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     /* Form */
